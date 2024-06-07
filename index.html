@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Brooke's HTMl Project 2 </title>
 	<style>
+		h1{color: tan}
 .container { 
   height: 200px;
   position: relative;
@@ -18,23 +19,26 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-		<body> {background-color: antiquewhite;} 
+		<body> {background-color: mintcream;} 
 		p {color: tan}
 		table, th, td {
   border:1px solid #EED2AC;
 }
 		h2{color: darkolivegreen}
 		
-		#myfooter {background-color: #F5DBB7;color: darkolivegreen;padding-top: "40px";text-align: center}
-		
+		#myfooter {background-color: darkolivegreen;color: tan;padding-top: "40px";text-align: center}
+		#myheader {background-color: darkolivegreen;color: tan;padding:"40px";text-align: right}
 		
 	</style>
 	
 </head>
 <body> 
-	<button> <a href="Images/openhours.png"> Hours Of Operation </a></button>
-<h1 style="text-align: center;font-size:70px;color: darkolivegreen"> Whisk and Crumb Bakery CO.</h1>
-	<p style=" text-align: center;font-size:30px"> Baked Fresh Daily</p>
+	<h4 id="myheader"> <button> <a href="Images/openhours.png"> Hours Of Operation </a> </button> </h4>
+	 
+<h1 style="color: darkolivegreen;text-align:center;font-size: 50px" >Whisk and Crumb Bakery CO.</h1>
+		
+	
+	<p style=" text-align:center;font-size:30px"><em> Baked Fresh Daily </em></p>
 	<h2 style="text-align: center; font-size: 40px"> <i> Menu </i></h2>
 	<br>
 <blockquote> 
@@ -44,7 +48,7 @@
 	<br>
 	
 	<table style="width:65%;">
- <img src="Images/cupcake.png" alt="Cupcake with strawberry" width="330" height="330px" scr="cupcake.png" style="float:left">
+ <img src="Images/cupcake.png" alt="Cupcake with strawberry" width="330" height="330px" scr="cupcake.png" style="float:left"> <h1> Cup Cakes </h1>
 	<tr> 
     <td>Flavors</td>
     <td>Amount</td>
@@ -79,7 +83,7 @@
 	<br>
 	<br>
   <table style="width: 65%">
-	<img src="Images/pie.png" alt="Cherry Pie" scr="pie.png" widith="300px" height="300" style="float: right"> 
+	<img src="Images/pie.png" alt="Cherry Pie" scr="pie.png" widith="300px" height="300" style="float: right"> <h1> Delious Pie </h1>
 	
 	
 	
@@ -116,7 +120,7 @@
 		<br>
 		<br>
 	<table style="width: 60%">
-	<img src="Images/cake.png" alt="cake with starwberries on top" width="330" height="330px" scr="cupcake.png" style="float:left">
+	<img src="Images/cake.png" alt="cake with starwberries on top" width="330" height="330px" scr="cupcake.png" style="float:left"> <h1> Cake </h1>
 	<tr> 
 		<td> Flavors</td>
 		<td> Amount </td>
@@ -150,7 +154,7 @@
 		<br>
 		<br>
 	<table style="width: 65%">
-		<img src="Images/donut.png" alt="Chocolate Donut" style= "width:300px;height: 300px; float: right">
+		<img src="Images/donut.png" alt="Chocolate Donut" style= "width:300px;height: 300px; float: right"> <h1> Glazed Donuts</h1>
 		<tr>
 		<td> Flavors</td>
 			<td> Amount</td>
@@ -182,7 +186,7 @@
 	<br>
 	<br>
 	<blockquote>
-	<ul style="font-size: 30px;color: darkolivegreen"> <img src="Images/coffee.png" alt="coffee drink" style="float:left; width: 200px; height: 200px"> 
+	<ul style="font-size: 30px;color: darkolivegreen"> <img src="Images/coffee.png" alt="coffee drink" style="float:left; width: 200px; height: 200px"> <h1 style="font-size:30px "> Drinks and More</h1>
 	<li> Milk</li>
 		<li>Coffee</li>
 	<li> Water </li>
@@ -219,13 +223,14 @@
 	<br>
 	<br>
 	<em style="font-size:40px; text-align:center;color: tan"> Subscribe to our Emails! </em>
-	
+	<div style="background-color: tan;color: darkolivegreen;padding:20px">
 	<form action="Images/Thankyou.png">  <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">  <br> Email <br> <input type="email" id="email" name="email">  <br>
   <input type="submit" value="Submit">
 </form> 
-	<h4 id="myfooter"> Please dont hesitate to reach out to us at (123)456-7890, if you have any questions.</h4>
+		</div>
+	<h4 title="Ask About Our New Customer Discounts!" id="myfooter"> Please dont hesitate to reach out to us at (123)456-7890, if you have any questions.</h4>
 </body>
 </html>
